@@ -1,9 +1,9 @@
 # nosql-challenge
 No SQL Mongo DB Challenge
 
-Part 1: Database and Jupyter Notebook Set Up [NoSQL_setup_starter.ipynb](C:\Users\divya\Documents\nosql-challenge\NoSQL_setup_starter.ipynb)
+Part 1: Database and Jupyter Notebook Set Up [NoSQL_setup_starter.ipynb](NoSQL_setup_starter.ipynb)
 
-1. Imported the data provided in the establishments.json file from the Terminal. 
+1. Imported the data provided in the [establishments.json](Resources/establishments.json) file from the Terminal. 
     mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
 
 2. Imported the required libraries - Pymongo, pandas and pprint.
@@ -11,14 +11,14 @@ Part 1: Database and Jupyter Notebook Set Up [NoSQL_setup_starter.ipynb](C:\User
 4. Created a database and verified that all the data has been loaded properly.
 5. Assigned the establishments collection to a variable.
 
-Part 2: Update the Database [NoSQL_setup_starter.ipynb](C:\Users\divya\Documents\nosql-challenge\NoSQL_setup_starter.ipynb)
+Part 2: Update the Database [NoSQL_setup_starter.ipynb](NoSQL_setup_starter.ipynb)
 
 1. Added a new restaurant to the 'establishments' collection.
 2. Found the BusinessTypeID for "Restaurant/Cafe/Canteen" and updated the new restaurant with the BusinessTypeID found.
 3. Deleted the records containing Local Authority as 'Dover'. 994 rows were deleted.
 4. Updated the datatype of 'latitude' and 'longitude' from string to decimal, and 'RatingValue' from string to integer.
 
-Part 3: Exploratory Analysis [NoSQL_analysis_starter.ipynb](C:\Users\divya\Documents\nosql-challenge\NoSQL_analysis_starter.ipynb)
+Part 3: Exploratory Analysis [NoSQL_analysis_starter.ipynb](NoSQL_analysis_starter.ipynb)
 
 Answered the following questions:
 
